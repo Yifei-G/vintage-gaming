@@ -1,0 +1,123 @@
+@font-face{
+    font-family:"arcade classic";
+    src:url("../font/arcade_pizzadude/ARCADE.TTF");
+}
+@font-face{
+    font-family: "game";
+    src: url("../font/game/game.TTF");
+}
+body{
+    width:80%;
+    margin: auto;
+    border: 1px solid balck;
+    background-color: rgb(38, 34, 56);
+    color:white;
+    font-family: 'Turret Road', cursive;
+}
+#title-header{
+    width: 100%;
+    display: flex;
+    
+}
+#title-header p{
+    font-family: "game";
+    font-size: 100px;
+    text-align: center;
+    width: 53%;
+    margin-top: 20px;
+}
+#title-header p span{
+    color:rgb(255, 213, 1);
+}
+#page-title{
+    text-align: right;
+    font-family: 'Big Shoulders Inline Text', cursive;
+    color:rgb(255, 213, 1);
+    font-size: 60px;
+}
+a{
+    font-family: "arcade classic";
+    color: rgb(255, 213, 1);
+    font-size: 22px;
+}
+.pixel-word{
+    display: inline;
+    font-family: "arcade classic";
+    font-size: 38px;
+}
+section{
+    display:flex;
+}
+.text-content{
+    flex-direction: column;
+    margin-bottom: 35px;
+}
+h2{
+    background-color: rgba(197, 197, 184, 0.925);
+    font-family: "arcade classic";
+    color:rgb(37, 64, 185);
+    border-radius: 15px;
+    padding-left:7px;
+    font-size: 27px;
+    padding-top: 4px;
+}
+#brand-logo{
+   margin: 0; 
+   padding-top:12px
+}
+.padding-img{
+    margin: 0;
+    padding-top:23px;
+    padding-left:10px;
+    padding-right:10px;
+}
+.no-margin-header{
+    margin-block-end: 0;
+}
+.no-margin-text{
+    margin-top:10px;
+}
+figcaption{
+    font-size: small;
+    text-align: center;
+}
+#brand-history-content{
+    display: flex;
+}
+#pac-man-content{
+    display: flex;
+}
+p{
+    text-align: justify;
+}
+#console-models{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#console-models p{
+    margin-right:20px;
+}
+.console-fig{
+    margin-left:0;
+    border: 2px dashed rgb(255, 213, 1);
+    border-radius: 10px;
+    padding:3px;
+
+}
+#menu{
+    list-style-type:none;
+    text-align: right;
+}
+#menu li{
+    display: inline;
+    padding: 0 12px;
+}
+#referrence{
+    list-style-type:none;
+    padding-left:0;
+}
+#referrence li{
+    padding-bottom: 12px;
+}
